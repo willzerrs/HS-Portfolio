@@ -1,0 +1,27 @@
+var base = new Circle(150, 150, 150, 150);
+  base.fill('#e6e600');
+  base.stroke('red');
+  base.addTo(stage);
+
+var eye1 = new Ellipse(100, 100, 20, 30);
+  eye1.fill('green');
+  eye1.addTo(stage);
+
+var eye2 = new Ellipse(200, 100, 20, 30);
+  eye2.fill('green');
+  eye2.addTo(stage);
+
+var mouth = new Rect(100, 190, 100, 50, 25, false);
+  mouth.fill('red');
+  mouth.addTo(stage);
+
+stage.addChild(eye1);
+eye1.animate('1s', {
+  rotation: Math.PI*2
+}, {repeat:Infinity});
+
+stage.addChild(eye2);
+eye2.animate('1s', {
+  rotation: Math.PI*2
+}, {repeat:Infinity});
+

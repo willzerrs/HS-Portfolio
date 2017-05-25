@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<link rel="icon" 
+      type="png" 
+      href="heart-outline-2.png">
+      <title>BonsaiJS :D</title>
+		<link rel="stylesheet" type="text/css"
+			  href="Portfolio.css">
+		<link rel="icon" type="" href"">
+		<title> </title>
+		<!--GOOGLE FONTS-->
+	<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Amatic+SC">
+    <!--W3SCHOOLS FONTS-->
+    <link rel="stylesheet" 
+    	  href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <style>
+      body {
+        font-family: 'Abril Fatface', serif;
+        font-size: "5";
+      }
+    </style>
+	</head>
+	<body>
+			<!-- BEGIN NAVIGATION BAR-->
+		<ul id="navbar">
+			<li class="navlist-item"><a href="home.html">Home</a></li>
+			<li class="navlist-item"><a href="hobby.html">Hobby Website</a></li>
+			<li class="navlist-item"><a href="dream.html">Dream Vacation</a></li>
+			<li class="navlist-item"><a href="bonsai.html">Bonsai Art</a>
+			<li class="navlist-item"><a href="pythonstory.html">Python Story</a></li>
+			<li class="navlist-item"><a href="scratch.html">Scratch Project</a></li>
+			<li class="navlist-item"><a href="xaos.html">Xaos</a></li>
+			<li class="navlist-item"><a href="filter.html">Image Filter</a></li>
+			<li class="navlist-item"><a href="final.html">Final Project</a></li>
+  		</ul>
+		<!-- END NAVIGATION BAR-->
+		<div id="main">
+		<h1>Bonsai Art</h1>
+		<img src="CSE_Bonsai_LeungW.gif" width="400" height="400">
+		<p>var base = new Circle(150, 150, 150, 150);</p>
+			<p>		base.fill('#e6e600');</p>
+			<p>		base.stroke('red');</p>
+			<p>		base.addTo(stage);</p>
+		<p></p>
+		<p>var eye1 = new Ellipse(100, 100, 20, 30);</p>
+			<p>		eye1.fill('green');</p>
+			<p>		eye1.addTo(stage);</p>
+		<p></p>
+		<p>var eye2 = new Ellipse(200, 100, 20, 30);</p>
+			<p>		eye2.fill('green');</p>
+			<p>		eye2.addTo(stage);</p>
+		<p></p>
+		<p>var mouth = new Rect(100, 190, 100, 50, 25, false);</p>
+			<p>		mouth.fill('red');</p>
+			<p>		mouth.addTo(stage);</p>
+		<p></p>
+		<p>stage.addChild(eye1);</p>
+		<p>eye1.animate('1s', {</p>
+			<p>		rotation: Math.PI*2</p>
+		<p>}, {repeat:Infinity});</p>
+		<p></p>
+		<p>stage.addChild(eye2);</p>
+		<p>eye2.animate('1s', {</p>
+			<p>		rotation: Math.PI*2</p>
+		<p>}, {repeat:Infinity});</p>
+		</div>
+	</body>
+</html>
